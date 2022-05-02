@@ -53,6 +53,156 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="70.982142857142847"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="G4A-Uw-91N">
+            <objects>
+                <viewController id="Flq-hg-JOn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Na9-cs-hw4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gla-cP-jTa">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">RED PEPPER SAUCE
+
+Red peppers
+Fresh garlic
+Heavy cream
+Calabrian chili
+Tomato paste
+Pecorino romano
+Cavatappi noodles
+Red pepper flakes 
+White onion
+
+OPTIONAL//
+Cover red peppers in olive oil then roast in a 150 oven until charred and soft
+
+RECIPE//
+
+PREP//
+Thinly slice two red peppers, a whole onion, 2-3 Calabrian chilis (depending on spice level) and 2-4 large cloves of garlic. Measure out a pinch of red pepper flakes and keep a few tbsp (2-3) of Calabrian chili oil.
+
+COOKING//
+Put enough olive oil in a saute pan to coat the bottom. Over medium heat saute onions until soft, then add in red peppers until soft. After 30 seconds put in the thinly sliced garlic, red pepper flakes, and chilis (with oil). Saute for 30 seconds until soft and golden. Last, add 2-3 tbs of tomato paste and cook till the pasty flavor is out. Season to taste with salt and pepper.
+
+Add a pint of heavy cream and slowly simmer until thick and evaporated. Prep a blender and add your sauce. Puree until smooth or slightly chunky.
+
+Heavily salt a pot of water and bring to a boil. Once at a boil add cavatappi and under cook by two minutes. Save the pasta water for later. 5 Minutes into the noodles cooking add a few tbsp of sauce to a pan with a knob of butter. Once noodles are undercooked by two minutes, finish them in the sauce. Take the pan off heat, add 2-3 large handfuls of pecorino, constantly agitating and stirring, adding pasta water if the sauce is too thick, or sauce if thin. Plate and enjoy.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4Bt-3T-h68"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b02-a7-Jsj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1624.6376811594205" y="70.982142857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Pan-dC-bHS">
+            <objects>
+                <viewController id="98i-rN-F6b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JM9-e1-IDA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XX0-Ba-G2F">
+                                <rect key="frame" x="20" y="44" width="374" height="683"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">GRILLED CHEESE WITH CILANTRO AVOCADO SAUCE
+
+3 bunches of cilantro
+2 bunches of scallion
+2 bunches of chives
+2 jalapenos
+3 large limes or 1 cup of lime juice
+½ cup Mayonnaise
+¼ cup Agave 
+½ cup Avocado oil
+1 avocado
+Fresh Sourdough
+Fontinella Cheese
+
+
+
+PREP//
+Chop ends off of cilantro bunches. Wash cilantro leaves until clean and dirt free. Chop stems off of scallions and chives. Slightly chop the scallions and chives till shorter. Thinly slice jalapenos and de-seed them. Get 1 cup of lime juice from 3 large limes. Shred around a cup of fontinella cheese. Cut two slices of the sourdough bread and give a light spread of mayo onto one side.
+
+
+COOKING//
+In handfulls add cilantro, chives, and scallions to a blender and begin to puree. Add lime juice, jalapenos, and the rest of your greens. Add the mayo, avocado oil, avocado, and agave until smooth and to taste.
+
+Assemble the sandwich by placing the shredded fontinella and a light drizzle of the avocado sauce between the two pieces of bread. Throw a pan over medium heat, then add the bread mayo side down. Toast the bread till golden brown and cheese is melted, then enjoy!
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4M0-Qw-C9P"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tmc-Xx-EnC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2394.202898550725" y="70.982142857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eNc-WJ-VYi">
+            <objects>
+                <viewController id="Vg5-5E-NCQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sdN-dU-ACG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atP-IH-l4i">
+                                <rect key="frame" x="20" y="44" width="374" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">BERRY FRENCH TOAST
+
+Brioche Loaf
+Raspberries
+Blueberries
+Blackberries
+Mint Leafs
+Sugar
+Eggs
+Milk
+Brown Sugar
+Cinnamon 
+Vanilla
+Cornstarch
+Powdered sugar
+
+PREP// 
+
+Crack 4 eggs in a large shallow bowl and mix with a splash	of milk, a teaspoon of vanilla, and a pinch of brown sugar and cinnamon. Cut 2 thick slices of brioche. 
+
+COOKING//
+
+Place ½ a cup of each berry into a saucepan with ¼ cup water and sugar. In another cup mix a pinch of cornstarch and water. Add to the sauce pan until the sauce is thick. Strain into a jar and save the extra berries.
+
+Dip your bread into the eggwash and add to a pan over medium heat. Cook on either side until golden brown. Repeat with the other slice. Plate with sauce, berries, mint leaf, and powdered sugar, then enjoy!
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tvc-Ji-Myz"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n53-sD-PKA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3166.666666666667" y="70.982142857142847"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="1KS-Ob-yhK">
             <objects>
@@ -75,6 +225,12 @@
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
