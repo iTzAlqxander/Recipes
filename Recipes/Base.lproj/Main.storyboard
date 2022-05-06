@@ -17,16 +17,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6t-u8-GFC">
-                                <rect key="frame" x="157" y="66" width="104" height="37"/>
+                                <rect key="frame" x="136" y="77" width="145" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Breakfast">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
                                     <color key="baseForegroundColor" red="0.8180441316" green="0.58720715769999998" blue="0.098920226799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Vg5-5E-NCQ" kind="show" id="0hd-KT-xhk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uex-lG-dNr">
-                                <rect key="frame" x="170" y="377" width="77" height="37"/>
+                                <rect key="frame" x="144" y="377" width="128" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Lunch">
@@ -38,13 +41,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqU-R7-QoI">
-                                <rect key="frame" x="167" y="663" width="80" height="37"/>
+                                <rect key="frame" x="132" y="657" width="153" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dinner">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
                                     <color key="baseForegroundColor" red="0.8180441316" green="0.58720715769999998" blue="0.098920226799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Flq-hg-JOn" kind="show" id="RMr-fq-ipY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,9 +71,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gla-cP-jTa">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <rect key="frame" x="20" y="78" width="374" height="818"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">RED PEPPER SAUCE
+                                <string key="text">RED PEPPER SAUCE
 
 Red peppers
 Fresh garlic
@@ -93,7 +99,7 @@ Put enough olive oil in a saute pan to coat the bottom. Over medium heat saute o
 Add a pint of heavy cream and slowly simmer until thick and evaporated. Prep a blender and add your sauce. Puree until smooth or slightly chunky.
 
 Heavily salt a pot of water and bring to a boil. Once at a boil add cavatappi and under cook by two minutes. Save the pasta water for later. 5 Minutes into the noodles cooking add a few tbsp of sauce to a pan with a knob of butter. Once noodles are undercooked by two minutes, finish them in the sauce. Take the pan off heat, add 2-3 large handfuls of pecorino, constantly agitating and stirring, adding pasta water if the sauce is too thick, or sauce if thin. Plate and enjoy.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -102,6 +108,7 @@ Heavily salt a pot of water and bring to a boil. Once at a boil add cavatappi an
                         <viewLayoutGuide key="safeArea" id="4Bt-3T-h68"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="93t-7l-moa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b02-a7-Jsj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,7 +123,7 @@ Heavily salt a pot of water and bring to a boil. Once at a boil add cavatappi an
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XX0-Ba-G2F">
-                                <rect key="frame" x="20" y="44" width="374" height="683"/>
+                                <rect key="frame" x="20" y="107" width="374" height="683"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">GRILLED CHEESE WITH CILANTRO AVOCADO SAUCE
 
@@ -166,7 +173,7 @@ Assemble the sandwich by placing the shredded fontinella and a light drizzle of 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atP-IH-l4i">
-                                <rect key="frame" x="20" y="44" width="374" height="600"/>
+                                <rect key="frame" x="20" y="148" width="374" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">BERRY FRENCH TOAST
 
@@ -202,6 +209,7 @@ Dip your bread into the eggwash and add to a pan over medium heat. Cook on eithe
                         <viewLayoutGuide key="safeArea" id="tvc-Ji-Myz"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3f5-zI-svI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n53-sD-PKA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
