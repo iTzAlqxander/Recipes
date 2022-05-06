@@ -64,7 +64,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gla-cP-jTa">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">RED PEPPER SAUCE
+                                <string key="text">RED PEPPER SAUCE
 
 Red peppers
 Fresh garlic
@@ -90,7 +90,7 @@ Put enough olive oil in a saute pan to coat the bottom. Over medium heat saute o
 Add a pint of heavy cream and slowly simmer until thick and evaporated. Prep a blender and add your sauce. Puree until smooth or slightly chunky.
 
 Heavily salt a pot of water and bring to a boil. Once at a boil add cavatappi and under cook by two minutes. Save the pasta water for later. 5 Minutes into the noodles cooking add a few tbsp of sauce to a pan with a knob of butter. Once noodles are undercooked by two minutes, finish them in the sauce. Take the pan off heat, add 2-3 large handfuls of pecorino, constantly agitating and stirring, adding pasta water if the sauce is too thick, or sauce if thin. Plate and enjoy.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -115,7 +115,7 @@ Heavily salt a pot of water and bring to a boil. Once at a boil add cavatappi an
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XX0-Ba-G2F">
                                 <rect key="frame" x="20" y="44" width="374" height="683"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">GRILLED CHEESE WITH CILANTRO AVOCADO SAUCE
+                                <string key="text">GRILLED CHEESE WITH CILANTRO AVOCADO SAUCE
 
 3 bunches of cilantro
 2 bunches of scallion
@@ -139,7 +139,7 @@ COOKING//
 In handfulls add cilantro, chives, and scallions to a blender and begin to puree. Add lime juice, jalapenos, and the rest of your greens. Add the mayo, avocado oil, avocado, and agave until smooth and to taste.
 
 Assemble the sandwich by placing the shredded fontinella and a light drizzle of the avocado sauce between the two pieces of bread. Throw a pan over medium heat, then add the bread mayo side down. Toast the bread till golden brown and cheese is melted, then enjoy!
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -164,7 +164,7 @@ Assemble the sandwich by placing the shredded fontinella and a light drizzle of 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atP-IH-l4i">
                                 <rect key="frame" x="20" y="44" width="374" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">BERRY FRENCH TOAST
+                                <string key="text">BERRY FRENCH TOAST
 
 Brioche Loaf
 Raspberries
@@ -189,7 +189,7 @@ COOKING//
 Place ½ a cup of each berry into a saucepan with ¼ cup water and sugar. In another cup mix a pinch of cornstarch and water. Add to the sauce pan until the sauce is thick. Strain into a jar and save the extra berries.
 
 Dip your bread into the eggwash and add to a pan over medium heat. Cook on either side until golden brown. Repeat with the other slice. Plate with sauce, berries, mint leaf, and powdered sugar, then enjoy!
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
