@@ -33,6 +33,9 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
                                     <color key="baseForegroundColor" red="0.8180441316" green="0.50274143549999994" blue="0.1875671072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="98i-rN-F6b" kind="show" id="Wz7-uM-dyt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqU-R7-QoI">
                                 <rect key="frame" x="167" y="663" width="80" height="37"/>
@@ -148,6 +151,7 @@ Assemble the sandwich by placing the shredded fontinella and a light drizzle of 
                         <viewLayoutGuide key="safeArea" id="4M0-Qw-C9P"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ynq-UP-SHZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tmc-Xx-EnC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
