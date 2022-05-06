@@ -67,7 +67,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gla-cP-jTa">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">RED PEPPER SAUCE
+                                <mutableString key="text">RED PEPPER SAUCE
 
 Red peppers
 Fresh garlic
@@ -93,7 +93,7 @@ Put enough olive oil in a saute pan to coat the bottom. Over medium heat saute o
 Add a pint of heavy cream and slowly simmer until thick and evaporated. Prep a blender and add your sauce. Puree until smooth or slightly chunky.
 
 Heavily salt a pot of water and bring to a boil. Once at a boil add cavatappi and under cook by two minutes. Save the pasta water for later. 5 Minutes into the noodles cooking add a few tbsp of sauce to a pan with a knob of butter. Once noodles are undercooked by two minutes, finish them in the sauce. Take the pan off heat, add 2-3 large handfuls of pecorino, constantly agitating and stirring, adding pasta water if the sauce is too thick, or sauce if thin. Plate and enjoy.
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -105,7 +105,7 @@ Heavily salt a pot of water and bring to a boil. Once at a boil add cavatappi an
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b02-a7-Jsj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1624.6376811594205" y="70.982142857142847"/>
+            <point key="canvasLocation" x="3101" y="71"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Pan-dC-bHS">
@@ -155,7 +155,7 @@ Assemble the sandwich by placing the shredded fontinella and a light drizzle of 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tmc-Xx-EnC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2394.202898550725" y="70.982142857142847"/>
+            <point key="canvasLocation" x="2351" y="71"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eNc-WJ-VYi">
@@ -205,7 +205,7 @@ Dip your bread into the eggwash and add to a pan over medium heat. Cook on eithe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n53-sD-PKA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3166.666666666667" y="70.982142857142847"/>
+            <point key="canvasLocation" x="1617" y="71"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1KS-Ob-yhK">
