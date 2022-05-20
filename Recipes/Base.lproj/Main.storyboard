@@ -322,10 +322,6 @@ Assemble the sandwich by placing the shredded fontinella and a light drizzle of 
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Bt-6O-ivS">
-                                <rect key="frame" x="135" y="27" width="145" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bZ8-9m-R4w"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -392,6 +388,10 @@ PROTEIN (G)      56                            14
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Bt-6O-ivS">
+                                <rect key="frame" x="287" y="666" width="107" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="glv-7V-1wf"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -524,6 +524,75 @@ PROTEIN (G) 5                                    FAT(G) 20
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gxL-tQ-Vkt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3100.0000000000005" y="-608.03571428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ivc-zU-h1U">
+            <objects>
+                <viewController id="ccm-IN-Yr6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E6e-gR-tYW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DjC-iR-X5t">
+                                <rect key="frame" x="20" y="61" width="374" height="756"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">BANANA PEANUT BUTTER PROTEIN MUFFINS
+
+Ingredients:
+140g (~1⁄2 cup) 0% fat Greek yogurt 
+110g banana
+20g (~3 tbsp) powdered peanut butter (PB2)
+60g (1⁄2 cup) oat flour
+33g (1 scoop) protein powder
+5g (1 tsp) baking powder 
+
+Frosting:
+125g (1⁄2 cup) 0% fat Greek yogurt
+ 30g (5 tbsp) powdered peanut butter (PB2)
+
+
+Directions:
+
+1. Preheat the oven to 176°C (350°F).
+
+2. Blend all ingredients in a blender until there is a smooth batter.
+
+3. Add the mixture into a muffin pan or a regular baking pan. Be sure to spray the pan with 
+cooking spray before adding the batter.
+
+4. Bake at 176°C (350°F) for 20-25 minutes or until you can stick a toothpick into the muffin and the toothpick comes out clean.
+
+5. While the muffins are baking, prepare the frosting by mixing the Greek yogurt and powdered peanut butter.
+
+6. Remove the muffins from the oven and let sit to cool completely to firm up.
+
+7. Apply the frosting to each muffin if desired and serve. 
+
+
+Per Batch:                                           Per Serving:
+CALORIES 815                                  CALORIES 205 
+FAT(G) 13                                           FAT(G) 3
+CARBS (G) 95                                    CARBS (G) 24
+FIBER (G) 17                                      FIBER (G) 4
+PROTEIN (G) 86                                 PROTEIN (G) 22
+
+
+
+
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EIZ-3Z-kkn"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TE9-Vj-A9E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3800" y="-608"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eNc-WJ-VYi">
